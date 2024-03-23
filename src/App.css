@@ -1,0 +1,38 @@
+body {
+    background-image: url(https://img.freepik.com/free-vector/gorgeous-clouds-background-with-blue-sky-design_1017-25501.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+
+.weatherBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid lightblue;
+    padding: 30px;
+    margin: 30px;
+    /* background-color: */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 32px;
+}
+
+.locationButton {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .locationButton .btn {
+    margin: 10px;
+  }
+  
