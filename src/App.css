@@ -3,6 +3,24 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    background: liner-gradient(-45deg, #1d2c41, #87c9D9, #4fa3f0, #22131a);
+    background-size: 110% 110%; 
+    position: relative;
+    animation: backgroundChange 10s ease-in-out infinite;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+@keyframes backgroundChange {
+0% {
+    background-position: 0 50%;
+}
+50% {
+ background-position: 100% 50%;
+}
+100% {
+background-position: 0 50%;
+}
 }
 
 .container {
